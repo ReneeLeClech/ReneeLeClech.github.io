@@ -34,7 +34,7 @@ title: "Bio"
 
 ## Others
 
-For more details, you can download my full CV as a <a href="CV.pdf#" class="download" title="Download CV as PDF">pdf</a>.
+For more details, you can download my full CV as a <a href="Documents/CV.pdf#" class="download" title="Download CV as PDF">pdf</a>.
 
 During my PhD, via the Université de Lorraine, I'm supervizing master students for the UE 'Statistiques de base", which is as introductive class in statistics for doctors.
 
