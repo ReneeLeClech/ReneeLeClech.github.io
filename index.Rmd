@@ -1,9 +1,5 @@
 ---
 title: "Renée Le Clech"
-output:
-  html_document:
-    logo: 
-    includes:
 ---
 
 <style>

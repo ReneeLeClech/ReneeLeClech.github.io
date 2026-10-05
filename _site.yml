@@ -1,26 +1,36 @@
-name: "Renee Le Clech"                                 
+name: "Renee Le Clech"
+
 output_dir: "."
+
 navbar:
-  title: "Renee Le Clech"                             
+  title: "Renee Le Clech"
   type: inverse
+
   left:
     - text: "Home"
       icon: fa-home
       href: index.html
+
     - text: "Bio"
-      icon: fa-user 
+      icon: fa-user
       href: bio.html
+
     - text: "Publications"
       icon: fa-book
       href: publications.html
+
   right:
     - text: "Contact"
       icon: fa-envelope-o
       href: contact.html
+
     - text: "GitHub"
       icon: fa-github
-      href: https://github.com/ReneeLeClech       # CHANGE HERE 
+      href: https://github.com/ReneeLeClech
+
 output:
   html_document:
     theme: darkly
     highlight: textmate
+    includes:
+      in_header: favicon.Rhtml
