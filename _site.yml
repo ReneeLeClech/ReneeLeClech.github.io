@@ -11,7 +11,7 @@ navbar:
       icon: fa-user 
       href: bio.html
     - text: "Publications"
-      icon: fa-book-o
+      icon: fa-book
       href: publications.html
   right:
     - text: "Contact"
