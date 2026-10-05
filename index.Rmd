@@ -6,15 +6,51 @@ output:
     includes:
 ---
 
+<style>
+.text1 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.profile-picture {
+  width: 160px;
+  float: right;
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+
+.ascii-art {
+  font-size: 0.7rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: white;
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0;
+  white-space: pre;
+}
+</style>
+
+
+
+
+<img src="pictures/leclech_rogne.png" class="profile-picture">
+
+
+
+
+<p class="text1">
+
 Phd student in [HeKA](https://heka.gitlabpages.inria.fr), supervized by [Anne-Sophie Jannot](https://scholar.google.fr/citations?user=2tpUwgEAAAAJ&hl=fr&oi=ao), [Nicolas Jay](https://site-23068d.gitlabpages.inria.fr/members/permanents/nicolas-jay.html), [Nicolas Garcelon](https://scholar.google.fr/citations?user=pZsgtewAAAAJ&hl=fr&oi=sra) and [Aurelie Bannay](https://members.loria.fr/ABannay/). My PDH is part of the [M4DI project](https://m4di.univ-amu.fr), funded by the PEPR [Santé Numérique](https://pepr-santenum.fr).
 
-I'm working on the development of a generic method to describe the care pathways of patients with rare diseases.
-
-<img src="pictures/leclech_rogne.png" width = "180px" align="right"> </img>
-
-WORK IN PROGRESS PLEASE COME BACK LATER
+I'm working on the development of a generic method to describe the care pathways of patients with rare diseases from French National Health Data System i.e french claim record.
 
 
+</p>
+
+<pre class="ascii-art">
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⣠⣠⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣴⣿⣿⡿⣿⡟⠛⠛⠛⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⣠⣴⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -23,10 +59,13 @@ WORK IN PROGRESS PLEASE COME BACK LATER
 ⠀⠀⠀⠀⠈⠉⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⣀⣦⣤⣶⣶⣶⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣤⣤⣄⠀⠀⠀⠀⠀⠀⠀
-⠸⣿⡿⣟⣻⣯⣭⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠛⠛⠛⠛⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣤⠀⠀⠀⠀⠀
+⠸⣿⡿⣟⣻⣯⣭⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠛⠛⠛⠛⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣤⠀⠀⠀⠀⠀
 ⠀⠀⣾⣿⣿⠿⠛⠉⠉⠉⠉⠉⠉⠉⠉⠙⠛⠛⠛⠛⠛⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀⠈⠙⢿⣿⣿⣿⣿⣿⣿⣿⣾⣿⠿⢿⣿⣶⣶⣶⣄
-⠀⠀⠀⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠉⠉⠙⠻⢿⣷⣄⠈⠉⠙⠛⠃
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⣿⣶⣦⠀⠀
+⠀⠀⠀⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀≉≉≉≉≉≉⠙⠻⢿⣷⣄⠈≉≉⠙⛛⠃
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⣿⣶⣦⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠋⠀⠀
+</pre>
+
+
 
 

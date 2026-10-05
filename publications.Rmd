@@ -1,0 +1,144 @@
+## Publications
+
+*Public health data science — coming soon*
+
+<style>
+.publications {
+  margin-top: 1.5rem;
+}
+
+.publication-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.publication-column h3 {
+  margin: 0 0 1rem 0;
+  padding-bottom: 0.45rem;
+  border-bottom: 2px solid #ddd;
+  font-size: 1.15rem;
+}
+
+.publication {
+  margin-bottom: 1.15rem;
+  line-height: 1.45;
+}
+
+.publication:last-child {
+  margin-bottom: 0;
+}
+
+.year {
+  font-weight: 600;
+  color: #666;
+  margin-right: 0.25rem;
+}
+
+.publication-title {
+  font-weight: 600;
+}
+
+.publication-links {
+  margin-left: 0.35rem;
+  white-space: nowrap;
+}
+
+.section {
+  margin-top: 2.5rem;
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+}
+
+.previous-work .work {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.previous-work .work:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+  .publication-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+</style>
+
+<div class="publications">
+
+<div class="publication-grid">
+
+<div class="publication-column">
+
+## Oral presentations
+
+<div class="publication">
+<span class="year">(2026)</span>
+<span class="publication-title">ISCB presentation</span>
+<span class="publication-links">(<a href="https://hal.science/view/index/docid/5776179">HAL</a>)</span>
+<br>
+Development of a generic method to describe care pathways of patients with rare diseases using the French National Health Data System (SNDS) and impact of the input corpus on the medical code embedding space.
+</div>
+
+<div class="publication">
+<span class="year">(2025)</span>
+<span class="publication-title">Presentation of the SNDS database</span>
+<span class="publication-links">
+(<a href="Documents/SNDS_english.pdf" class="download" title="Presentation of the SNDS database">PDF</a>)
+</span>
+<br>
+For the M4DI consortium and the Junior Seminar of the HeKA team.
+</div>
+
+</div>
+
+<div class="publication-column">
+
+## Posters
+
+<div class="publication">
+<span class="year">(2026)</span>
+<span class="publication-title">Annual PEPR Days</span>
+<span class="publication-links">(<a href="https://heka.gitlabpages.inria.fr">HAL</a>)</span>
+<br>
+Development of a generic method to describe care pathways of patients with rare diseases using the French National Health Data System (SNDS) and impact of the input corpus on the medical code embedding space.
+</div>
+
+<div class="publication">
+<span class="year">(2026)</span>
+<span class="publication-title">Doctoral School annual seminar</span>
+<span class="publication-links">(<a href="https://heka.gitlabpages.inria.fr">HAL</a>)</span>
+<br>
+Overview of the use of claims data for constructing care pathways of patients with rare diseases.
+</div>
+
+</div>
+
+</div>
+
+<div class="section previous-work">
+
+## Previous work
+
+<div class="work">
+<span class="year">(2025)</span>
+<strong>Animal behaviour</strong> — Work on Arctic Charr (fish, salmonid), published in <em>Animal Behaviour</em>:
+<a href="https://doi.org/10.1016/j.anbehav.2025.123077">Do animal personality components independently evolve and develop in response to environmental complexity?</a>
+</div>
+
+<div class="work">
+<span class="year">(2024)</span>
+<strong>Fishery science</strong> — Simulation of the spatial bias of Mark-Recapture population estimator models through a
+<a href="https://reneeleclech.github.io/Shiny_app_MRR/">Shiny app</a>.
+Developed at the UMR Borea of the Muséum National d'Histoire Naturelle.
+</div>
+
+</div>
+
+</div>

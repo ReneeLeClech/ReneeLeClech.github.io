@@ -2,6 +2,25 @@
 title: "Bio"
 ---
 
+<style>
+
+.ascii-art {
+  font-size: 0.7rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: white;
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0;
+  white-space: pre;
+}
+</style>
+
+
+
+
+
 ## Background
 
 * 2024 -  now : PhD in Data Science - HeKA Team, Université Paris Cité
@@ -9,14 +28,20 @@ title: "Bio"
 * 2018 - 2020 : Preparatory class in Biology, Chemistry, Physics, and Hearth Science - Lycée Lakanal, Sceaux
 
 ## Diploms
+
 * 2024: Master in Data Science applied to Biological data (Université Rennes 2)
-* 2024: "Diplome d'ingénieur agronome", spécialized in Data Science (Institut Agro)
+* 2024: "Diplôme d'ingénieur agronome", specialized in Data Science (Institut Agro)
 
-# Others
-work in progress
+## Others
 
+For more details, you can download my full CV as a <a href="CV.pdf#" class="download" title="Download CV as PDF">pdf</a>.
 
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+During my PhD, via the Université de Lorraine, I'm supervizing master students for the UE 'Statistiques de base", which is as introductive class in statistics for doctors.
+
+As part of my academic and scientific pathway, recent development of data science and AI led me to think about FAIR principles, that I try to apply as much as I can, but also to have the best practices regarding scientific ethics, as well as acknowledging sociological, political and environmental impacts of AI development.
+		
+
+<pre class="ascii-art">
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣽⣍⣉⠙⠒⠤⢤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⡉⠙⠛⠷⢦⣤⣄⣉⠙⠒⠢⢤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⠇⠀⠡⠀⢂⠈⠉⡙⠻⠷⢶⣤⣄⣈⠙⠒⠢⢤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -44,4 +69,7 @@ work in progress
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠛⠻⠶⣦⣤⣀⡈⠉⠒⠢⠬⣁⡀⠒⣏⣩⠤⠒⢛⣉⡥⠤⠒⣏⣉⠦⠔⢇⣀⡴⠀⢀⠉⠑⠒⢦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠛⠻⠶⣶⣤⣀⣈⠉⠑⠲⠒⢋⣩⠦⠖⣇⣉⠓⠤⢄⣈⣩⠤⠔⠒⣉⣠⣤⣶⠿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠛⠻⠷⣶⣤⣄⣀⠁⠋⠋⠤⠕⠒⣉⣠⣦⣶⠾⠟⠛⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠛⠻⠷⠶⠶⠾⠟⠛⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠛⠻⠷⠶⠶⠾⠟⠛⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+</pre>
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀

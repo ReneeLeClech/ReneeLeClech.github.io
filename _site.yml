@@ -1,7 +1,7 @@
-name: "Renee Le Clech"                                # CHANGE HERE 
+name: "Renee Le Clech"                                 
 output_dir: "."
 navbar:
-  title: "Renee Le Clech"                             # CHANGE HERE 
+  title: "Renee Le Clech"                             
   type: inverse
   left:
     - text: "Home"
@@ -10,16 +10,13 @@ navbar:
     - text: "Bio"
       icon: fa-user 
       href: bio.html
-    - text: "CV"
-      icon: fa-file-pdf-o
-      href: cv.html
-    - text: "Linkedin"
-      icon: fa-linkedin
-      href: https://www.linkedin.com/in/ren%C3%A9e-le-clech-50a5b0200/  # CHANGE HERE OR DELETE ALL 3 LINES 
+    - text: "Publications"
+      icon: fa-book-o
+      href: publications.html
   right:
-    - text: "Contact me"
+    - text: "Contact"
       icon: fa-envelope-o
-      href: mailto:renee.le-clech@inria.fr                    # CHANGE HERE 
+      href: contact.html
     - text: "GitHub"
       icon: fa-github
       href: https://github.com/ReneeLeClech       # CHANGE HERE 

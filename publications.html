@@ -11,7 +11,7 @@
 
 
 
-<title>Bio</title>
+<title>publications.knit</title>
 
 <script src="site_libs/header-attrs-2.31/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -290,88 +290,142 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Bio</h1>
 
 </div>
 
 
+<div id="publications" class="section level2">
+<h2>Publications</h2>
+<p><em>Public health data science — coming soon</em></p>
 <style>
+.publications {
+  margin-top: 1.5rem;
+}
 
-.ascii-art {
-  font-size: 0.7rem;
+.publication-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.publication-column h3 {
+  margin: 0 0 1rem 0;
+  padding-bottom: 0.45rem;
+  border-bottom: 2px solid #ddd;
+  font-size: 1.15rem;
+}
+
+.publication {
+  margin-bottom: 1.15rem;
+  line-height: 1.45;
+}
+
+.publication:last-child {
+  margin-bottom: 0;
+}
+
+.year {
   font-weight: 600;
-  line-height: 1.4;
-  color: white;
-  background: transparent !important;
-  border: none !important;
-  padding: 0 !important;
-  margin: 0;
-  white-space: pre;
+  color: #666;
+  margin-right: 0.25rem;
+}
+
+.publication-title {
+  font-weight: 600;
+}
+
+.publication-links {
+  margin-left: 0.35rem;
+  white-space: nowrap;
+}
+
+.section {
+  margin-top: 2.5rem;
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+}
+
+.previous-work .work {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.previous-work .work:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+  .publication-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
 }
 </style>
-<div id="background" class="section level2">
-<h2>Background</h2>
-<ul>
-<li>2024 - now : PhD in Data Science - HeKA Team, Université Paris
-Cité</li>
-<li>2020 - 2024 : Cursus Ingénieur agronome, speczialized in Data
-Science - Institut Agro, Rennes</li>
-<li>2018 - 2020 : Preparatory class in Biology, Chemistry, Physics, and
-Hearth Science - Lycée Lakanal, Sceaux</li>
-</ul>
 </div>
-<div id="diploms" class="section level2">
-<h2>Diploms</h2>
-<ul>
-<li>2024: Master in Data Science applied to Biological data (Université
-Rennes 2)</li>
-<li>2024: “Diplôme d’ingénieur agronome”, specialized in Data Science
-(Institut Agro)</li>
-</ul>
+<div class="publications">
+<div class="publication-grid">
+<div id="oral-presentations" class="section level2 publication-column">
+<h2>Oral presentations</h2>
+<div class="publication">
+<p><span class="year">(2026)</span> <span class="publication-title">ISCB
+presentation</span> <span
+class="publication-links">(<a href="https://hal.science/view/index/docid/5776179">HAL</a>)</span>
+<br> Development of a generic method to describe care pathways of
+patients with rare diseases using the French National Health Data System
+(SNDS) and impact of the input corpus on the medical code embedding
+space.</p>
 </div>
-<div id="others" class="section level2">
-<h2>Others</h2>
-<p>For more details, you can download my full CV as a
-<a href="CV.pdf#" class="download" title="Download CV as PDF">pdf</a>.</p>
-<p>During my PhD, via the Université de Lorraine, I’m supervizing master
-students for the UE ’Statistiques de base”, which is as introductive
-class in statistics for doctors.</p>
-<p>As part of my academic and scientific pathway, recent development of
-data science and AI led me to think about FAIR principles, that I try to
-apply as much as I can, but also to have the best practices regarding
-scientific ethics, as well as acknowledging sociological, political and
-environmental impacts of AI development.</p>
-<pre class="ascii-art">
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣽⣍⣉⠙⠒⠤⢤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⡉⠙⠛⠷⢦⣤⣄⣉⠙⠒⠢⢤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⠇⠀⠡⠀⢂⠈⠉⡙⠻⠷⢶⣤⣄⣈⠙⠒⠢⢤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⣿⠃⢈⠀⢂⠠⠀⡁⠠⠀⠄⠂⠈⠉⠛⠻⠷⣶⣤⣄⣈⠙⠒⠢⢤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⣿⡁⢀⠂⠀⠄⠂⠀⠄⢁⠠⠈⠠⠁⡐⠀⠄⡀⠈⠉⠛⠻⠷⣶⣤⣄⣈⠙⠒⠢⢤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⡀⢀⠀⢃⠀⡘⠠⠘⠀⡀⠄⠃⠠⠀⡘⠀⡀⠃⡘⠠⠀⡀⠀⠘⠛⠿⢿⣤⣤⣀⠀⠛⠣⠤⣀⡀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠄⠂⢀⠂⠀⠄⠐⡀⠁⠠⠐⠈⡀⠐⡀⠐⡀⠐⡀⠄⠡⢀⠡⠈⠄⠠⠀⠄⠉⡙⠛⠷⢶⣤⣄⣈⠉⠒⠢⠤⣀⡀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠂⡈⠀⠄⠁⡐⠠⠀⠌⢀⠂⢁⠀⢂⠀⡁⢀⠂⠄⠠⠁⠄⠠⠁⠌⠠⢁⠈⡐⠀⠌⡐⠂⢌⠩⢙⠛⠷⣶⡄⢀⡇
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠃⠀⠌⢀⠂⠠⠐⠀⢂⠠⠐⠀⡈⠀⠄⠐⡀⠄⠈⠄⠂⡈⠐⢈⠠⠁⣀⠢⠐⡉⠔⡠⠉⢄⢂⠂⠌⠂⣿⡇⠀⡇
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠃⢈⠠⠀⠄⢁⠠⠁⠠⠀⠂⢁⠠⠈⢀⠂⠠⢀⠁⢂⠐⠀⢡⠀⠢⠡⠄⠢⠡⠌⡐⠄⡉⠄⢊⠐⡈⠁⣿⡇⠀⡇
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⡃⠀⠄⠂⢈⠀⠄⠂⠁⠄⠡⠀⠄⡈⠀⠄⡁⢀⠂⠄⠢⠉⠤⢈⠡⢂⠡⠁⠆⠡⠐⡈⠐⡈⠄⡡⢀⠁⣿⡇⠀⡇
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⡄⠈⠠⠈⡀⠄⠂⠈⠄⠂⠐⠈⡀⠄⠁⢄⠰⢀⠩⠠⠡⢈⠰⠈⡐⠠⠈⠌⡠⠡⠁⠄⠡⠐⡀⠆⡀⠂⣿⡇⠀⡇
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⠆⠀⠡⠐⠀⡐⠈⡀⠂⠌⢀⠁⠠⢂⠉⡀⠢⠈⠄⡁⠢⠈⠄⠡⠠⠡⠈⠔⠠⠁⠌⠠⢁⠡⠐⠠⢀⠁⣾⡇⠀⡇
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣇⣈⠀⠂⢁⠠⠐⢀⡐⠠⠈⠄⡁⢂⠐⠠⠁⠌⡐⠠⠁⠌⠠⢁⠂⠡⠈⠄⠡⠈⠄⠡⢀⠂⢁⠂⠄⠂⣽⡇⠀⡇
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⠻⢿⣿⣶⣦⣤⣆⣠⠀⠑⡈⠰⢀⠂⠌⠠⢁⠂⠄⠡⠈⠄⠡⠀⠌⡀⠡⢈⠀⠡⢈⠠⠀⠂⠄⢂⠐⡀⢿⡇⠀⡇
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠛⠻⢿⣿⣷⣶⣤⣄⣈⠄⠁⢂⠐⡈⠐⡈⠐⠠⢁⠂⠐⡀⠂⠈⠄⡀⠂⠁⠌⠐⠠⠀⠄⣻⡇⢀⡇
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠛⠻⢿⣿⣷⣦⣴⣀⡁⠄⡁⠂⠄⠂⡁⠄⢈⠐⠠⢀⠡⠈⡀⢁⠂⠁⠄⣻⡇⠀⡇
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡈⡻⣿⣿⣿⣿⢶⣮⣤⣂⡄⢈⠠⠐⢀⠂⢀⠂⠐⠠⢀⠁⠂⣽⡇⠀⡇
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡠⠤⠒⠊⠉⠉⠁⠀⠈⠙⠁⠀⠉⠙⣿⣿⣶⣦⣦⣀⡂⠠⠁⢂⠠⠈⠀⣿⡇⠀⡇
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠤⠴⠒⠓⡒⠒⠲⠤⣄⣀⠀⠀⠀⣞⣛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⡇⠉⠙⠛⠿⢿⣿⣶⣦⣤⣈⡐⣺⡇⠀⡇
-⠀⠀⠀⢀⣀⠤⡴⠒⢛⡉⠀⣀⣠⠦⠲⢋⣀⡤⠆⠁⡈⠉⠑⠲⠿⣿⣿⣷⣶⣤⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠀⠀⠀⠀⠀⠀⠁⠉⢻⠛⠿⠿⣿⣇⣰⡧
-⣶⣾⠛⠉⢠⡄⢨⣶⢠⣤⠉⣧⣴⠚⠉⢹⣤⣶⠊⠉⣤⣴⠃⠀⢠⠀⠈⠉⡟⢻⣿⣿⣿⣷⣶⣤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣴⣾⣿⠀⠀⠀⠀⠀⠈⠀
-⠻⠷⣶⣤⣀⡉⠉⠒⠒⠛⣉⣵⠴⠚⢉⣉⡦⠔⢓⣉⡧⠤⢖⢊⣡⠤⠴⡂⣈⡄⠀⣉⠙⠛⠿⣿⣿⣿⣶⣤⣄⣀⣀⣤⣴⣾⣿⠿⠿⠛⠁⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠈⠉⠛⠻⠶⣦⣤⣄⡀⠉⠒⠢⠤⣀⡘⠋⠡⠴⣒⣋⡥⠼⡖⢚⣍⡤⠗⠒⣏⣠⠴⠀⢀⡄⠩⠙⠛⠿⢭⣟⡛⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠛⠻⠶⣦⣤⣀⡈⠉⠒⠢⠬⣁⡀⠒⣏⣩⠤⠒⢛⣉⡥⠤⠒⣏⣉⠦⠔⢇⣀⡴⠀⢀⠉⠑⠒⢦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠛⠻⠶⣶⣤⣀⣈⠉⠑⠲⠒⢋⣩⠦⠖⣇⣉⠓⠤⢄⣈⣩⠤⠔⠒⣉⣠⣤⣶⠿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠛⠻⠷⣶⣤⣄⣀⠁⠋⠋⠤⠕⠒⣉⣠⣦⣶⠾⠟⠛⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠛⠻⠷⠶⠶⠾⠟⠛⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-</pre>
-<p>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀</p>
+<div class="publication">
+<p><span class="year">(2025)</span> <span
+class="publication-title">Presentation of the SNDS database</span> <span
+class="publication-links">
+(<a href="Documents/SNDS_english.pdf" class="download" title="Presentation of the SNDS database">PDF</a>)
+</span> <br> For the M4DI consortium and the Junior Seminar of the HeKA
+team.</p>
+</div>
+</div>
+<div id="posters" class="section level2 publication-column">
+<h2>Posters</h2>
+<div class="publication">
+<p><span class="year">(2026)</span> <span
+class="publication-title">Annual PEPR Days</span> <span
+class="publication-links">(<a href="https://heka.gitlabpages.inria.fr">HAL</a>)</span>
+<br> Development of a generic method to describe care pathways of
+patients with rare diseases using the French National Health Data System
+(SNDS) and impact of the input corpus on the medical code embedding
+space.</p>
+</div>
+<div class="publication">
+<p><span class="year">(2026)</span> <span
+class="publication-title">Doctoral School annual seminar</span> <span
+class="publication-links">(<a href="https://heka.gitlabpages.inria.fr">HAL</a>)</span>
+<br> Overview of the use of claims data for constructing care pathways
+of patients with rare diseases.</p>
+</div>
+</div>
+</div>
+<div id="previous-work" class="section level2 previous-work">
+<h2>Previous work</h2>
+<div class="work">
+<p><span class="year">(2025)</span> <strong>Animal behaviour</strong> —
+Work on Arctic Charr (fish, salmonid), published in <em>Animal
+Behaviour</em>:
+<a href="https://doi.org/10.1016/j.anbehav.2025.123077">Do animal
+personality components independently evolve and develop in response to
+environmental complexity?</a></p>
+</div>
+<div class="work">
+<p><span class="year">(2024)</span> <strong>Fishery science</strong> —
+Simulation of the spatial bias of Mark-Recapture population estimator
+models through a
+<a href="https://reneeleclech.github.io/Shiny_app_MRR/">Shiny app</a>.
+Developed at the UMR Borea of the Muséum National d’Histoire
+Naturelle.</p>
+</div>
+</div>
 </div>
 
 

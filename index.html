@@ -13,7 +13,7 @@
 
 <title>Renée Le Clech</title>
 
-<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.31/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/darkly.min.css" rel="stylesheet" />
@@ -259,26 +259,19 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="cv.html">
-    <span class="fa fa-file-pdf-o"></span>
+  <a href="publications.html">
+    <span class="fa fa-book-o"></span>
      
-    CV
-  </a>
-</li>
-<li>
-  <a href="https://www.linkedin.com/in/ren%C3%A9e-le-clech-50a5b0200/">
-    <span class="fa fa-linkedin"></span>
-     
-    Linkedin
+    Publications
   </a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="mailto:renee.le-clech@inria.fr">
+  <a href="contact.html">
     <span class="fa fa-envelope-o"></span>
      
-    Contact me
+    Contact
   </a>
 </li>
 <li>
@@ -302,6 +295,34 @@ $(document).ready(function () {
 </div>
 
 
+<style>
+.text1 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.profile-picture {
+  width: 160px;
+  float: right;
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+
+.ascii-art {
+  font-size: 0.7rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: white;
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0;
+  white-space: pre;
+}
+</style>
+<p><img src="pictures/leclech_rogne.png" class="profile-picture"></p>
+<p class="text1">
 <p>Phd student in <a href="https://heka.gitlabpages.inria.fr">HeKA</a>,
 supervized by <a
 href="https://scholar.google.fr/citations?user=2tpUwgEAAAAJ&amp;hl=fr&amp;oi=ao">Anne-Sophie
@@ -314,11 +335,11 @@ Bannay</a>. My PDH is part of the <a
 href="https://m4di.univ-amu.fr">M4DI project</a>, funded by the PEPR <a
 href="https://pepr-santenum.fr">Santé Numérique</a>.</p>
 <p>I’m working on the development of a generic method to describe the
-care pathways of patients with rare diseases.</p>
-<p><img src="pictures/leclech_rogne.png" width = "180px" align="right">
-</img></p>
-<p>WORK IN PROGRESS PLEASE COME BACK LATER</p>
-<p>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⣠⣠⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+care pathways of patients with rare diseases from French National Health
+Data System i.e french claim record.</p>
+</p>
+<pre class="ascii-art">
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⣠⣠⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣴⣿⣿⡿⣿⡟⠛⠛⠛⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⣠⣴⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⣀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣄⠀⠀⠉⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -326,11 +347,12 @@ care pathways of patients with rare diseases.</p>
 ⠀⠀⠀⠀⠈⠉⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠟⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⣀⣦⣤⣶⣶⣶⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣤⣤⣄⠀⠀⠀⠀⠀⠀⠀
-⠸⣿⡿⣟⣻⣯⣭⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠛⠛⠛⠛⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣤⠀⠀⠀⠀⠀
+⠸⣿⡿⣟⣻⣯⣭⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠛⠛⠛⠛⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣤⠀⠀⠀⠀⠀
 ⠀⠀⣾⣿⣿⠿⠛⠉⠉⠉⠉⠉⠉⠉⠉⠙⠛⠛⠛⠛⠛⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀⠈⠙⢿⣿⣿⣿⣿⣿⣿⣿⣾⣿⠿⢿⣿⣶⣶⣶⣄
-⠀⠀⠀⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠉⠉⠙⠻⢿⣷⣄⠈⠉⠙⠛⠃
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⣿⣶⣦⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠋⠀⠀</p>
+⠀⠀⠀⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀≉≉≉≉≉≉⠙⠻⢿⣷⣄⠈≉≉⠙⛛⠃
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⣿⣶⣦⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠋⠀⠀
+</pre>
 
 
 

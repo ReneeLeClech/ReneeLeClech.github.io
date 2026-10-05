@@ -1,0 +1,39 @@
+---
+title: "contact"
+output: html_document
+---
+
+<style>
+.copy-button {
+  background-color: #696969;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.copy-button:hover {
+  background-color: #45a049;
+}
+</style>
+
+<p>
+  Mail :
+  <a href="mailto:renee.le-clech@proton.me">
+    renee.le-clech@proton.me
+  </a>
+  <button
+    class="copy-button"
+    onclick="navigator.clipboard.writeText('renee.le-clech@proton.me')">
+    Copy
+  </button>
+</p>
+
+
+Hal : [link](https://hal.science/search/index/?q=*&authIdPerson_i=1727639)
+
+Orcid : [link](https://orcid.org/my-orcid?orcid=0009-0002-3984-5791)
+
+Linkedin : [link](https://www.linkedin.com/in/ren%C3%A9e-le-clech-50a5b0200/) 
+
