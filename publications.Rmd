@@ -105,7 +105,7 @@ For the M4DI consortium and the Junior Seminar of the HeKA team.
 <div class="publication">
 <span class="year">(2026)</span>
 <span class="publication-title">Annual PEPR Days</span>
-<span class="publication-links">(<a href="https://heka.gitlabpages.inria.fr">HAL</a>)</span>
+<span class="publication-links">(<a href="https://hal.science/search/index/?q=*&authIdPerson_i=1727639">coming soon</a>)</span>
 <br>
 Development of a generic method to describe care pathways of patients with rare diseases using the French National Health Data System (SNDS) and impact of the input corpus on the medical code embedding space.
 </div>
@@ -113,7 +113,7 @@ Development of a generic method to describe care pathways of patients with rare 
 <div class="publication">
 <span class="year">(2026)</span>
 <span class="publication-title">Doctoral School annual seminar</span>
-<span class="publication-links">(<a href="https://heka.gitlabpages.inria.fr">HAL</a>)</span>
+<span class="publication-links">(<a href="https://hal.science/search/index/?q=*&authIdPerson_i=1727639">HAL coming soon</a>)</span>
 <br>
 Overview of the use of claims data for constructing care pathways of patients with rare diseases.
 </div>
