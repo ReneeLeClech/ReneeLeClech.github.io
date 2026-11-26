@@ -1,16 +1,44 @@
+
 ---
 title: "Publications"
 ---
-
-## Publications
-
-*Public health data science — coming soon*
 
 <style>
 .publications {
   margin-top: 1.5rem;
 }
 
+/* Header with conference photo */
+.papers-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin: 1.5rem 0 2.5rem 0;
+}
+
+.papers-header img {
+  width: 280px;
+  height: 340px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.papers-header-text {
+  flex: 1;
+}
+
+.papers-header-text h2 {
+  margin-top: 0;
+}
+
+.papers-header-text p {
+  margin-bottom: 0;
+}
+
+/* Publication grid */
 .publication-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -66,7 +94,17 @@ title: "Publications"
   margin-bottom: 0;
 }
 
+/* Mobile layout */
 @media (max-width: 700px) {
+  .papers-header {
+    gap: 1rem;
+  }
+
+  .papers-header img {
+    width: 120px;
+    height: 170px;
+  }
+
   .publication-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -75,6 +113,24 @@ title: "Publications"
 </style>
 
 <div class="publications">
+
+<!-- Papers title and conference photo -->
+
+<div class="papers-header">
+
+<div class="papers-header-text">
+
+## Papers
+
+*Public health data science — coming soon*
+
+</div>
+
+<img src="pictures/pic_conf.jpg" alt="Conference presentation">
+
+</div>
+
+<!-- Publications -->
 
 <div class="publication-grid">
 
@@ -125,6 +181,8 @@ Overview of the use of claims data for constructing care pathways of patients wi
 </div>
 
 </div>
+
+<!-- Previous work -->
 
 <div class="section previous-work">
 
